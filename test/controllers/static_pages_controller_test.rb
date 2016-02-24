@@ -17,4 +17,8 @@ class StaticPagesControllerTest < ActionController::TestCase
     assert_response :success
   end
 
+  test "should get contact" do
+    get :about
+    assert_response :success
+  end
 end
