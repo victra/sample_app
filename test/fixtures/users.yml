@@ -7,7 +7,14 @@
 # two:
 #   name: MyString
 #   email: MyString
-mihawk:
-  name: mihawk
+mihawks:
+  name: Mihawk s
   email: mihawk@mail.com
   password_digest: <%= User.digest('password') %>
+
+
+archer:
+  name: Sterling Archer
+  email: duchess@example.gov
+  password_digest: <%= User.digest('password') %>
+

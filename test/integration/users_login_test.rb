@@ -5,7 +5,7 @@ class UsersLoginTest < ActionDispatch::IntegrationTest
   #   assert true
   # end
   def setup
-    @user = users(:mihawk)
+    @user = users(:mihawks)
   end
   test "login with invalid information" do
     get login_path
